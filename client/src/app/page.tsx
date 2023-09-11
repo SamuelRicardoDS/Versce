@@ -1,12 +1,11 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import { Header } from "@/components/Header";
+import { VersceCircle } from "@/components/VersceCircle";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <h1 className={styles.title}>Hello, We are <span className={styles.name}>VERSCE</span></h1>
-      </div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <Header />
+      <VersceCircle />
     </main>
   )
 }
