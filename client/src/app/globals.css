@@ -16,7 +16,15 @@
   }
 }
 
+main {
+  max-width: 100%; /* Defina a largura máxima desejada, por exemplo, 1200px */
+  margin: 0 auto; /* Centralize o conteúdo horizontalmente */
+}
+
+
 body {
+  margin: 0;
+  padding: 0;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +32,5 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  overflow-x: hidden;
 }

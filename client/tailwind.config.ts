@@ -15,6 +15,7 @@ const config: Config = {
       },
       borderWidth: {
         '12': '12px',
+        '16': '16px',
         '22': '22px',
         '34': '34px'
       }
