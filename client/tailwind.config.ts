@@ -18,7 +18,12 @@ const config: Config = {
         '16': '16px',
         '22': '22px',
         '34': '34px'
+      },
+      colors: {
+        secondary: {
+          'secondaryBlack': '#131111'
       }
+    }
     },
   },
   plugins: [],
