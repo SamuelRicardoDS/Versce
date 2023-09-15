@@ -1,8 +1,10 @@
 export const VersceCircle = () => {
     return(
-        <div className="flex w-screen h-auto justify-center items-center mt-36 md:mt-36 lg:mt-52">
-            <div className="
-            absolute
+        <div className="flex w-screen h-auto justify-center items-center
+         mt-36 
+         md:mt-36 
+         lg:mt-72  ">
+            <div className="absolute
             text-2xl mr-36 mb-10
             md:text-4xl md:mr-64 md:mb-16 
             lg:text-7xl lg:mr-96 lg:mb-20
