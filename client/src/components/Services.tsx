@@ -6,7 +6,7 @@ export const Services = () => {
         lg:mt-80 lg:p-5">
             <h1 className="text-4xl font-bold">services</h1>
             <div className="flex flex-row mt-10 justify-center">
-                <div className="bg-secondary-secondaryBlack rounded-lg p-3 flex flex-col ">
+                <div className="bg-secondary-secondaryBlack rounded-2xl p-3 flex flex-col ">
                     <h1 className="font-semibold text-2xl">
                         Desenvolvimento <br /> de Software
                     </h1>
@@ -30,7 +30,7 @@ export const Services = () => {
                     <br />Desenvolvimento de interfaces e servidores
                     </p>
                 </div>
-                <div className="ml-5 bg-secondary-secondaryBlack rounded-lg p-3 mt-24">
+                <div className="ml-5 bg-secondary-secondaryBlack rounded-2xl p-3 mt-24">
                     <h1 className="font-semibold text-2xl">
                         Gestão de tráfego
                     </h1>
@@ -49,7 +49,7 @@ export const Services = () => {
                     <p className="font-extralight ml-5">vai tomar no cu fernando</p>
 
                 </div>
-                <div className="ml-5 bg-secondary-secondaryBlack rounded-lg p-3 mt-48">
+                <div className="ml-5 bg-secondary-secondaryBlack rounded-2xl p-4 mt-48">
                     <h1 className="font-semibold text-2xl">
                         Marketing de conteúdo
                     </h1>
